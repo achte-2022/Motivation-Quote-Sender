@@ -22,4 +22,4 @@ Python 3.9.12
 [datetime](https://docs.python.org/3/library/datetime.html)
 
 ## Email
-![](email.png)
+![](images/email.png)
