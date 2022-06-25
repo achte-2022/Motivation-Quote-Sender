@@ -35,7 +35,7 @@ $ git clone git@github.com:achte-2022/Motivation-Quote-Sender.git
 ### Environment Variables are DUMMY values
 
 ```sh
-$ cd Automated-Birthday-Wisher
+$ cd Motivation-Quote-Sender
 $ export TO_MAIL=random@gmail.com
 $ export FROM_MAIL=random@yahoo.com;
 $ export PASSWORD=password123;
@@ -45,7 +45,7 @@ $ export SMTP_SERVER=smtp.mail.yahoo.com;
 ## Run
 
 ```sh
-$ cd Automated-Birthday-Wisher
+$ cd Motivation-Quote-Sender
 $ python3 main.py
 ```
 
