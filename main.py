@@ -2,13 +2,14 @@
 import smtplib
 import datetime as dt
 import random
+import os
 
 # CONSTANTS
 # DUMMY CREDENTIALS
-TO_MAIL = "random@gmail.com"
-FROM_MAIL = "random@yahoo.com"
-PASSWORD = "password123"
-SMTP_SERVER = "smtp.mail.yahoo.com"
+TO_MAIL = os.environ.get("TO_MAIL")
+FROM_MAIL = os.environ.get("FROM_MAIL")
+PASSWORD = os.environ.get("PASSWORD")
+SMTP_SERVER = os.environ.get("SMTP_SERVER")
 QUOTES_FILE = "quotes.txt"
 SUBJECT = "Subject:Motivational Message\n\n"
 MONDAY = 0
